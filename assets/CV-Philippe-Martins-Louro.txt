@@ -1,0 +1,21 @@
+Philippe Martins Louro
+Profil synthétique
+Developer & Digital Creator
+
+Résumé
+- Front-end: HTML/CSS/JS
+- Visualisation: Canvas, WebGL
+- Outils: Git, npm, build tools
+
+Expérience (exemples)
+- 3+ ans en conception d'interfaces interactives
+- Projets freelance et prototypes pour startups
+
+Compétences
+- Langages: JavaScript, HTML5, CSS3
+- Frameworks: None specific (vanilla focused)
+- Visualisation: Canvas, shaders, WebGL
+
+Contact
+Email: philippe@example.com
+Téléphone: +33 6 00 00 00 00

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Philippe Martins Louro — Portfolio</title>
+  <meta name="description" content="Portfolio futuriste de Philippe Martins Louro — Projets, CV, contact. Site interactif généré automatiquement." />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">Philippe Martins Louro</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="langBtn" class="btn-ghost">EN</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <canvas id="nebula"></canvas>
+      <div class="hero-content container">
+        <h1>Créateur numérique & Développeur</h1>
+        <p class="lead">Je conçois des expériences web immersives — interfaces, visualisations et prototypes interactifs.</p>
+        <p class="cta">
+          <a href="#projects" class="btn">Voir mes projets</a>
+          <a href="/assets/CV-Philippe-Martins-Louro.txt" class="btn btn-alt" download>Télécharger le CV</a>
+        </p>
+      </div>
+      <div class="scroll-hint">Scroll ↓</div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>À propos</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Salut — je suis Philippe (personnage fictif pour ce site généré). J'aime mêler code, design et données pour créer des expériences qui surprennent. J'utilise JavaScript, WebGL, HTML5 et un soupçon d'algorithmes pour donner vie aux idées.</p>
+          <ul>
+            <li>Expertise : Front-end, visualisation, UX expérimental</li>
+            <li>Tech : HTML, CSS, JS, Canvas, Three.js (CDN), animations</li>
+            <li>Disponibilité : Freelance / Temps plein</li>
+          </ul>
+        </div>
+        <div class="about-avatar">
+          <!-- SVG avatar placeholder -->
+          <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0%" stop-color="#6AE3FF" />
+                <stop offset="100%" stop-color="#C77BFF" />
+              </linearGradient>
+            </defs>
+            <rect rx="24" width="220" height="220" fill="#081226" />
+            <circle cx="110" cy="90" r="42" fill="url(#g)" opacity="0.95" />
+            <rect x="36" y="150" width="148" height="28" rx="12" fill="#0b1530" stroke="url(#g)" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projets</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>CosmoVis — Visualisation interactive</h3>
+          <p>Exploration de données spatiales avec WebGL et shaders pour générer une nébuleuse interactive.</p>
+          <p class="card-meta">HTML • Canvas • WebGL</p>
+          <a class="card-link" href="#" onclick="openDemo('https://example.com')">Démonstration</a>
+        </article>
+        <article class="card">
+          <h3>Portfolio animé</h3>
+          <p>Site statique performant avec animations micro-interactions et mode sombre automatique.</p>
+          <p class="card-meta">HTML • CSS • JS</p>
+          <a class="card-link" href="#">Code</a>
+        </article>
+        <article class="card">
+          <h3>Prototype PWA</h3>
+          <p>Application progressive simple avec manifest et cache stratégique, prêt pour une mise en production légère.</p>
+          <p class="card-meta">PWA • Service Worker</p>
+          <a class="card-link" href="#">Voir</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="cv container">
+      <h2>CV</h2>
+      <p>Un CV synthétique est disponible au téléchargement. Vous pouvez aussi copier les informations pour personnaliser.</p>
+      <pre class="cv-file">Téléchargez : <a href="/assets/CV-Philippe-Martins-Louro.txt" download>CV-Philippe-Martins-Louro.txt</a></pre>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Envoyez un message ou utilisez le lien mailto pour démarrer une conversation.</p>
+      <div class="contact-grid">
+        <form class="contact-form" action="mailto:philippe@example.com" method="post" enctype="text/plain">
+          <label>Nom<input name="name" required /></label>
+          <label>Email<input name="email" type="email" required /></label>
+          <label>Message<textarea name="message" rows="6" required></textarea></label>
+          <p><button type="submit" class="btn">Envoyer</button></p>
+        </form>
+        <div class="contact-info">
+          <p>Email : <a href="mailto:philippe@example.com">philippe@example.com</a></p>
+          <p>Téléphone : +33 6 00 00 00 00</p>
+          <p>Basé en France — Disponible pour missions distantes ou sur site.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Philippe Martins Louro — Site généré automatiquement · <a href="#">Mentions</a></div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
